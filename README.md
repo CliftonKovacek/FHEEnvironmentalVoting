@@ -1,4 +1,4 @@
-# 🔐 EnvironmentalVoting - Privacy-Preserving Encrypted Voting
+# 🔐 FHE Environmental Voting - Anonymous Privacy-Preserving Governance
 
 **A privacy-preserving environmental governance platform powered by Zama FHEVM - enabling fully encrypted voting on Ethereum Sepolia testnet.**
 
@@ -9,13 +9,50 @@
 [![Tests](https://img.shields.io/badge/Tests-57%2B%20Passing-success)](./TESTING.md)
 [![Coverage](https://img.shields.io/badge/Coverage-95%25-brightgreen)](./TESTING.md)
 
-**🌐 Live Demo**: [Sepolia Testnet Deployment](https://sepolia.etherscan.io) | **📖 Docs**: [Complete Guide](./DEPLOYMENT.md)
+**🌐 Live Application**: https://fhe-environmental-voting.vercel.app/
+
+**📺 Demo Video**: Download `demo.mp4` to watch the demonstration (video links cannot be opened directly)
+
+**🔗 Repository**: https://github.com/CliftonKovacek/FHEEnvironmentalVoting
 
 ---
 
 ## 🌟 Overview
 
-EnvironmentalVoting is a decentralized governance platform that enables **completely private voting** on environmental proposals using **Zama's Fully Homomorphic Encryption (FHEVM)**. Votes remain encrypted throughout the entire process - from submission to tallying - ensuring absolute voter privacy while maintaining transparent, verifiable governance on Ethereum.
+**FHE Environmental Voting** is a decentralized governance platform that enables **completely anonymous voting** on environmental proposals using **Zama's Fully Homomorphic Encryption (FHEVM)**. Votes remain encrypted throughout the entire process - from submission to tallying - ensuring absolute voter privacy while maintaining transparent, verifiable governance on Ethereum.
+
+### 🔐 Core Concept: FHE Contract Anonymous Environmental Voting
+
+**What is FHE (Fully Homomorphic Encryption)?**
+
+FHE allows smart contracts to perform computations on encrypted data without ever decrypting it. In the context of voting:
+- 🔒 Your vote is encrypted in your browser before being sent
+- ⛓️ The blockchain stores only encrypted votes
+- 🧮 Smart contracts tally votes using homomorphic operations
+- 👁️ No one (including validators, admins) can see individual votes
+- 📊 Only aggregated results are revealed when voting ends
+
+### 🌱 Privacy-Preserving Environmental Decision System
+
+Traditional blockchain voting has a critical flaw: **all data is public**. Anyone can see how you voted, which enables:
+- ❌ Vote buying and selling
+- ❌ Voter coercion and intimidation
+- ❌ Biased voting based on others' choices
+- ❌ Privacy violations
+
+**Our FHE solution provides**:
+- ✅ **Complete anonymity**: Individual votes never revealed
+- ✅ **Trustless privacy**: Mathematical guarantees, not trust-based
+- ✅ **On-chain verification**: All actions recorded on blockchain
+- ✅ **Democratic integrity**: No manipulation, coercion, or bias
+- ✅ **Selective transparency**: Results revealed only when appropriate
+
+**Use Cases**:
+- 🌳 Community votes on local conservation projects
+- ⚡ Renewable energy infrastructure decisions
+- ♻️ Waste management and sustainability policies
+- 🌊 Water resource allocation
+- 🌍 Climate action initiatives
 
 **Built for the Zama ecosystem** - demonstrating practical privacy-preserving applications for decentralized governance.
 
@@ -777,20 +814,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions and support:
 
-- **Issues**: [GitHub Issues](../../issues)
-- **Discussions**: [GitHub Discussions](../../discussions)
+- **GitHub Repository**: https://github.com/CliftonKovacek/FHEEnvironmentalVoting
+- **Issues**: [Report bugs or issues](https://github.com/CliftonKovacek/FHEEnvironmentalVoting/issues)
+- **Discussions**: [Community discussions](https://github.com/CliftonKovacek/FHEEnvironmentalVoting/discussions)
 - **Documentation**: See [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ---
 
 ## 🌐 Links & Resources
 
+### Live Application & Demo
+
+- 🌐 **Live Application**: https://fhe-environmental-voting.vercel.app/
+- 📺 **Demo Video**: Download `demo.mp4` to watch (video links cannot be opened directly)
+- 🔗 **GitHub Repository**: https://github.com/CliftonKovacek/FHEEnvironmentalVoting
+
 ### Deployed Contract (Sepolia Testnet)
 
 - 🔗 **Sepolia Etherscan**: https://sepolia.etherscan.io
-- 📍 **Contract Address**: (Deploy to get address)
-- 📖 **Read Contract**: (Available after deployment)
-- ✍️ **Write Contract**: (Available after deployment)
+- 📍 **Contract Address**: (Available on live site after deployment)
+- 📖 **Read Contract**: (Interact through live application)
+- ✍️ **Write Contract**: (Connect wallet on live application)
 
 ### Development Resources
 
